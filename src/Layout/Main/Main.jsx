@@ -1,8 +1,10 @@
+import { Outlet } from "react-router";
+
 const Main = () => {
   return (
-    <div>
-      This is Main
-    </div>
+    <>
+      <Outlet/>
+    </>
   )
 };
 
